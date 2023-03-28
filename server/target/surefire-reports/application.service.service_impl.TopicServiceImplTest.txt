@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: application.service.service_impl.TopicServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in application.service.service_impl.TopicServiceImplTest

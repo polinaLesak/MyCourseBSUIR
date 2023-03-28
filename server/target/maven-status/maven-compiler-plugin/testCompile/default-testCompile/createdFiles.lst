@@ -1,0 +1,9 @@
+application\service\service_impl\ResultServiceImplTest.class
+application\service\service_impl\ReviewServiceImplTest.class
+application\service\service_impl\StatusServiceImplTest.class
+application\service\service_impl\TestServiceImplTest.class
+application\service\service_impl\TopicServiceImplTest.class
+application\service\service_impl\AnswerServiceImplTest.class
+application\service\service_impl\QuestionServiceImplTest.class
+application\service\service_impl\RoleServiceImplTest.class
+application\service\service_impl\UserServiceImplTest.class

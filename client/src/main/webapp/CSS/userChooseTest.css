@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Montserrat:wght@400;600&family=Readex+Pro&display=swap');
+body{
+    background-color:#1F1F1F;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    /* height: 1000px; */
+}
+.but{
+    margin: 4px auto;
+    background-color: #acacac;
+    color: #1F1F1F;
+    width: 200px;
+    padding: 10px;
+    cursor: pointer;
+    height: 50px;
+}
+.wind{
+    display: none;
+    font-weight: 500;
+    border-radius: 20px;
+    position: absolute;
+    top: 400px;
+    width: 500px;
+    left: 35%;
+    color: #1F1F1F;
+    text-align: center;
+    background-color: white;
+}
+.go-to-test-btn{
+    margin: 30px 0 0 90px;
+    width: 150px;
+    background-color: grey;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 20px;
+}
+span{
+    color: #7ba1d1;
+}
+/* HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.logo{
+    display: flex;
+    cursor:context-menu;
+}
+.logo-text{
+    margin: 20px 0 0 0;
+}
+.logo img{
+    width: 33px;
+    height: 33px;
+    margin: 15px 5px 0 15px;
+}
+.exit-box{
+    display: flex;
+    cursor: pointer;
+}
+.exit-text{
+    margin: 20px 15px 0 0;
+}
+.exit{
+    margin: 18px 15px 0 0;
+    width: 33px;
+    height: 33px;
+}
+.exit:hover{
+    color: rgb(226, 226, 226);
+}
+/* NAV */
+nav{
+    margin: 20px 0 0 0;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    color: black;
+    justify-content: space-around;
+    padding: 0 80px;
+    font-size: 20px;
+}
+nav div{
+    margin: 30px 0 0 0;
+    cursor: pointer;
+}
+/* WINDOW */
+
+.stripe{
+    height: 220px;
+    width: 100%;
+    background-color: transparent;
+}
+.stripe-title{
+    font-size: 38px;
+    margin: 60px auto 100px;
+    font-weight: 600;
+    width: 1050px;
+    text-align: center;
+}
+.big-stripe{
+    height: 350px;
+}
+.white-block{
+    height: 121px;
+    background-color: white;
+    width: 100%;
+}
+.go-to-test{
+    position: absolute;
+    top: 520px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    left: 10%;
+}
+.box{
+    width: 350px;
+    height: 230px;
+    background-size: cover;
+    box-shadow: 0px 0px 18px 5px rgba(11, 16, 21, 0.5);
+    margin: 0 70px 60px 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.first-box{
+    background-image: url(../img/money.png);
+}
+.second-box{
+    background-image: url(../img/code.png);
+}
+.third-box{
+    background-image: url(../img/game.png);
+}
+.fourth-box{
+    background-image: url(../img/code2.png);
+}
+.box-text{
+    text-align: center;
+    font-size: 24px;
+    padding: 30px;
+    vertical-align: center;
+}
+/* FOOTER */
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+
+    width: 100%;
+
+}
+.contacts{
+    display: flex;
+    margin: 0 0 0 30px;
+}
+.description{
+    margin: 0  0 0 40px;
+}
+
+.links{
+    display: flex;
+    width: 330px;
+}
+.links img {
+    width: 45px;
+    height: 45px;
+    margin: 20px 10px 0 10px;
+}

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Montserrat:wght@400;600&family=Readex+Pro&display=swap');
+body{
+    background-image: url(../img/fon.png);
+    background-size:cover;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+/* HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.logo{
+    display: flex;
+    cursor:context-menu;
+}
+.logo-text{
+    margin: 20px 0 0 0;
+}
+.logo img{
+    width: 33px;
+    height: 33px;
+    margin: 15px 5px 0 15px;
+}
+
+.exit{
+    margin: 18px 15px 0 0;
+    cursor: pointer;
+}
+.exit:hover{
+    color: rgb(226, 226, 226);
+}
+
+/* WINDOW */
+main{
+    width: 710px;
+    height: 650px;
+    background-color: black;
+    margin: 30px auto 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 7px rgba(0, 0, 0, 0.27);
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.form-title{
+    font-size: 28px;
+    width: 535px;
+    height: 100px;
+    margin: 16px auto 47px;
+    text-align: center;
+}
+input, select{
+    background-color: transparent;
+    width: 80%;
+    margin: 0 auto 20px;
+    font-size: 22px;
+    height: 40px;
+    color: rgb(143, 143, 143);
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.send{
+    width: 300px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 20px;
+    color: black;
+    margin: 5px auto;
+    cursor: pointer;
+}
+.send:hover{
+    background-color: #b1b1b1;
+}
+
+/* FOOTER */
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    bottom: 0;
+}
+.contacts{
+    display: flex;
+    margin: 0 0 0 30px;
+}
+.description{
+    margin: 0  0 0 40px;
+}
+
+.links{
+    display: flex;
+    width: 330px;
+}
+.links img {
+    width: 45px;
+    height: 45px;
+    margin: 20px 10px 0 10px;
+}

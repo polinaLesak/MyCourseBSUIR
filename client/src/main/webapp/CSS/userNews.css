@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Montserrat:wght@400;600&family=Readex+Pro&display=swap');
+body{
+    background-color:#1F1F1F;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+span{
+    color: #7ba1d1;
+}
+/* HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.logo{
+    display: flex;
+    cursor:context-menu;
+}
+.logo-text{
+    margin: 20px 0 0 0;
+}
+.logo img{
+    width: 33px;
+    height: 33px;
+    margin: 15px 5px 0 15px;
+}
+.exit-box{
+    display: flex;
+    cursor: pointer;
+}
+.exit-text{
+    margin: 20px 15px 0 0;
+}
+.exit{
+    margin: 18px 15px 0 0;
+    width: 33px;
+    height: 33px;
+}
+.exit:hover{
+    color: rgb(226, 226, 226);
+}
+/* NAV */
+nav{
+    margin: 20px 0 0 0;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    color: black;
+    justify-content: space-around;
+    padding: 0 80px;
+    font-size: 20px;
+}
+nav div{
+    margin: 30px 0 0 0;
+    cursor: pointer;
+}
+/* WINDOW */
+.main{
+    background-image: url(../img/fon.png);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    font-size: 40px;
+    line-height: 55.67px;
+    text-align: center;
+}
+.title-text{
+    width: 1031px;
+    margin: 0 auto;
+    padding: 90px 0;
+}
+/* NEWS */
+.news{
+    height: 1469px;
+}
+.news-block{
+    background-size: cover;
+    width: 80%;
+    margin: 51px auto 20px;
+    height: 309px;
+    overflow-y: scroll;
+}
+.first{
+    padding: 51px auto 33px;
+    background-image: url(../img/news1.png);
+}
+.news-title{
+    font-size: 40px;
+    text-align: center;
+}
+.news-description{
+    font-size: 20px;
+    text-align: left;
+    margin: 28px 0 20px 40px;
+}
+.news-text{
+    font-size: 16px;
+    margin: 0 0 40px 40px;
+}
+.second{
+    background-image: url(../img/news2.png);
+}
+.third{
+    background-image: url(../img/news3.png);
+}
+.fourth{
+    background-image: url(../img/news4.png);
+}
+
+
+
+
+/* FOOTER */
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+
+    width: 100%;
+
+}
+.contacts{
+    display: flex;
+    margin: 0 0 0 30px;
+}
+.description{
+    margin: 0  0 0 40px;
+}
+
+.links{
+    display: flex;
+    width: 330px;
+}
+.links img {
+    width: 45px;
+    height: 45px;
+    margin: 20px 10px 0 10px;
+}

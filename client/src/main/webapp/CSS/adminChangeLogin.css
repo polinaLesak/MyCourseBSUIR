@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Montserrat:wght@400;600&family=Readex+Pro&display=swap');
+body{
+    background-color:#1F1F1F;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+span{
+    color: #7ba1d1;
+}
+/* HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.logo{
+    display: flex;
+    cursor:context-menu;
+}
+.logo-text{
+    margin: 20px 0 0 0;
+}
+.logo img{
+    width: 33px;
+    height: 33px;
+    margin: 15px 5px 0 15px;
+}
+.exit-box{
+    display: flex;
+    cursor: pointer;
+}
+.exit-text{
+    margin: 20px 15px 0 0;
+}
+.exit{
+    margin: 18px 15px 0 0;
+    width: 33px;
+    height: 33px;
+}
+.exit:hover{
+    color: rgb(226, 226, 226);
+}
+/* NAV */
+nav{
+    margin: 20px 0 0 0;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    color: black;
+    justify-content: space-around;
+    padding: 0 80px;
+    font-size: 20px;
+}
+nav div{
+    margin: 30px 0 0 0;
+    cursor: pointer;
+}
+/* WINDOW */
+.main{
+    height: 450px;
+}
+.window{
+    background-color: black;
+    width: 770px;
+    height: 350px;
+    margin: 100px auto 80px;
+    border-radius: 20px;
+    padding: 0 60px;
+}
+.window-title{
+    font-size: 26px;
+    text-align: center;
+    width: 620px;
+    margin: 20px auto;
+    padding: 10px;
+}
+.window-context{
+    margin: 10px 0;
+}
+.input-change{
+    background-color: transparent;
+    border: none;
+    width: 350px;
+    margin: 0 100px 0 0;
+    border-bottom: 1px solid grey;
+    color: white;
+}
+.change-btn{
+    width: 180px;
+    height: 38px;
+    cursor: pointer;
+}
+.go-to-pass{
+    margin: 80px 0 0 180px;
+
+}
+.go-to-btn{
+    height: 40px;
+    cursor: pointer;
+}
+/* FOOTER */
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+}
+.contacts{
+    display: flex;
+    margin: 0 0 0 30px;
+}
+.description{
+    margin: 0  0 0 40px;
+}
+
+.links{
+    display: flex;
+    width: 330px;
+}
+.links img {
+    width: 45px;
+    height: 45px;
+    margin: 20px 10px 0 10px;
+}
